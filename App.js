@@ -41,6 +41,9 @@ function App() {
   return (
     <div className={classes.root}>
       <Paper elevation={5} className={classes.paper}>
+      <Button variant="contained" disabled> {/*Commit 1*/}
+          Кнопка не работает {/*Commit 1*/}
+        </Button> {/*Commit 1*/}
         <Typography id="discrete-slider" color="primary" gutterBottom>
           Микшер громкости
       </Typography>
@@ -55,6 +58,7 @@ function App() {
             <VolumeUp />
           </Grid>
         </Grid>
+        <Avatar className={classes.orange}>VA</Avatar> {/*Commit 1*/}
       </Paper>
     </div>
   );
