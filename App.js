@@ -46,7 +46,7 @@ function App() {
           Нажми на эту кнопку {/*Commit 1,3*/}
         </Button> {/*Commit 1*/}
         <Typography id="discrete-slider" color="primary" gutterBottom>
-          Микшер громкости
+          Увеличить громкость {/*Commit 5*/}
       </Typography>
         <Grid container spacing={2}>
           <Grid item>
@@ -61,6 +61,18 @@ function App() {
         </Grid>
         <Avatar className={classes.orange}></Avatar> {/*Commit 1,4*/}
       </Paper>
+      <form className={classes.container} noValidate> {/*Commit 5*/}
+      <TextField //Commit 5
+        id="date" //Commit 5
+        label="Birthday" //Commit 5
+        type="date" //Commit 5
+        defaultValue="1999-05-10" //Commit 5
+        className={classes.textField} //Commit 5
+        InputLabelProps={{ //Commit 5
+          shrink: true, //Commit 5
+        }} //Commit 5
+      /> {/*Commit 5*/}
+    </form> {/*Commit 5*/}
       <TextField id="standard-basic" label="Имя" /> {/*Commit 2*/}
     </div>
   );
