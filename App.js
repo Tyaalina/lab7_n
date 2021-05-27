@@ -63,6 +63,9 @@ function App() {
         <Avatar className={classes.orange}></Avatar> {/*Commit 1,4*/}
       </Paper>
       <Divider /> {/*Commit 7*/}
+      <Button color="secondary" fullWidth="true"> {/*Commit 8*/}
+          Сюда не нажимай {/*Commit 8*/}
+      </Button> {/*Commit 8*/}
       <form className={classes.container} noValidate> {/*Commit 5*/}
       <TextField //Commit 5
         id="date" //Commit 5
