@@ -60,6 +60,7 @@ function App() {
         </Grid>
         <Avatar className={classes.orange}>VA</Avatar> {/*Commit 1*/}
       </Paper>
+      <TextField id="standard-basic" label="Имя" /> {/*Commit 2*/}
     </div>
   );
 }
