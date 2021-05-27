@@ -64,9 +64,9 @@ function App() {
       <form className={classes.container} noValidate> {/*Commit 5*/}
       <TextField //Commit 5
         id="date" //Commit 5
-        label="Birthday" //Commit 5
+        label="Текущая дата" //Commit 5,6
         type="date" //Commit 5
-        defaultValue="1999-05-10" //Commit 5
+        defaultValue="2021-05-27" //Commit 5,6
         className={classes.textField} //Commit 5
         InputLabelProps={{ //Commit 5
           shrink: true, //Commit 5
