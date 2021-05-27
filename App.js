@@ -13,6 +13,7 @@ import Paper from '@material-ui/core/Paper';
 import TextField from '@material-ui/core/TextField';
 import Avatar from '@material-ui/core/Avatar';
 import Divider from '@material-ui/core/Divider'; //Commit 7
+import Link from '@material-ui/core/Link'; //Commit 10
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -80,6 +81,9 @@ function App() {
       /> {/*Commit 5*/}
     </form> {/*Commit 5*/}
       <TextField id="standard-basic" label="Имя" /> {/*Commit 2*/}
+      <Link href="#"> {/*Commit 10*/}
+        Link {/*Commit 10*/}
+    </Link> {/*Commit 10*/}
     </div>
   );
 }
