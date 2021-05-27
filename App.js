@@ -12,6 +12,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import TextField from '@material-ui/core/TextField';
 import Avatar from '@material-ui/core/Avatar';
+import Divider from '@material-ui/core/Divider'; //Commit 7
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -61,6 +62,7 @@ function App() {
         </Grid>
         <Avatar className={classes.orange}></Avatar> {/*Commit 1,4*/}
       </Paper>
+      <Divider /> {/*Commit 7*/}
       <form className={classes.container} noValidate> {/*Commit 5*/}
       <TextField //Commit 5
         id="date" //Commit 5
